@@ -1,0 +1,7 @@
+node_modules/
+docker/geoserver
+docker/extensions
+.idea/
+!/raster/.gitkeep
+raster/*.*
+.~lock.*

@@ -1,0 +1,42 @@
+{
+  "name": "geoserver-rest",
+  "version": "1.0.0",
+  "description": "Samples with the GeoServer REST API",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "create_workspace": "node samples/create_workspace.js",
+    "upload_shapefile": "node samples/upload_shapefile.js",
+    "upload_styles": "node samples/upload_styles.js",
+    "upload_multiple_shapefiles": "node samples/upload_multiple_shps.js",
+    "upload_multiple_styles": "node samples/upload_multiple_styles.js",
+    "update_layer_styles": "node samples/update_layer_styles.js",
+    "create_layergroup": "node samples/create_layergroup.js",
+    "seed_layergroup": "node samples/seed_layer.js",
+    "watching": "node samples/watch_dir.js",
+    "create_coveragestore": "node samples/create_coverage.js",
+    "import_geotiff": "node samples/import_geotiff.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michogar/geoserver-rest-siglibre2018.git"
+  },
+  "keywords": [
+    "node",
+    "geoserver",
+    "rest"
+  ],
+  "author": "Micho Garcia <micho.garcia@geomati.co>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/michogar/geoserver-rest-siglibre2018/issues"
+  },
+  "homepage": "https://github.com/michogar/geoserver-rest-siglibre2018#readme",
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "form-data": "^2.3.2",
+    "node-fetch": "^2.1.2"
+  }
+}
