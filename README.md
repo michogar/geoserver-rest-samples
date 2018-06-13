@@ -1,6 +1,7 @@
 # Geoserver through its REST API
 
-Girona [#siglibre2018](https://twitter.com/search?q=%23siglibre2018) conference code and slides
+Girona [#siglibre2018](https://twitter.com/search?q=%23siglibre2018) conference code and
+[slides (PDF 8.7Mb)](https://github.com/michogar/geoserver-rest-samples/raw/master/docs/geoserver-rest-siglibre-2018.pdf)
 
 ## To get the code
 
@@ -72,8 +73,8 @@ This script will create a `extensions` folder, will download the extension and w
 > need install GDAL into the Docker by yourself:
 >
 > $ docker-compose exec geoserver sh
-> # apt update
-> # apt install gdal-bin
+> $ apt update
+> $ apt install gdal-bin
 
 [More info about GeoServer Docker](https://hub.docker.com/r/oscarfonts/geoserver/)
 
