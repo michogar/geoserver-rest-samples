@@ -30,26 +30,26 @@ $ npm -v
 
 There is 11 samples ordered as npm scripts in the `package.json`. You can run them as npm tasks or directly as node scripts.
 
-* Create a empty workspace: `npm run create_workspace` create an empty workspace.
-* Upload a shapefile: `npm run upload_shapefile` get a zip file from `data` folder containing the shapefile, upload it to the server and publishing the layer.
-* Upload a style: `npm run upload_styles` get a zip file from `styles` folder, upload it to the server and creates a style after.
+* **Create a empty workspace**: `npm run create_workspace` create an empty workspace.
+* **Upload a shapefile**: `npm run upload_shapefile` get a zip file from `data` folder containing the shapefile, upload it to the server and publishing the layer.
+* **Upload a style**: `npm run upload_styles` get a zip file from `styles` folder, upload it to the server and creates a style after.
 Inside the zip file there is a SLD file with the style, and a PNG image with the graphic to the style.
-* Update layer styles: `npm run update_layer_styles` assigns the style to the layer if they have same names. (e.g. portugal
+* **Update layer styles**: `npm run update_layer_styles` assigns the style to the layer if they have same names. (e.g. portugal
 layer will be styled with portugal style)
-* Upload multiple shapefiles: `npm run upload_multiple_shapefiles` get every zip file from the `data` folder and upload it
+* **Upload multiple shapefiles**: `npm run upload_multiple_shapefiles` get every zip file from the `data` folder and upload it
 to the server publishing the layer
-* Upload multiple styles: `npm run upload_multiple_styles` the same, but uploading styles from the `styles` folder.
-* Create a Layergroup: `npm run create_layergroup`, get all layers from a workspace and create a layer group with them.
-* Seed a layer: `npm run seed_layergroup`, runs the seed process to the layer group created recently. If you activate the
+* **Upload multiple styles**: `npm run upload_multiple_styles` the same, but uploading styles from the `styles` folder.
+* **Create a Layergroup**: `npm run create_layergroup`, get all layers from a workspace and create a layer group with them.
+* **Seed a layer**: `npm run seed_layergroup`, runs the seed process to the layer group created recently. If you activate the
 disk quota into the GWC, you can see how the seed process take some space in it.
-* Watching a directory: `npm run watching`, this script launches a watcher over the data folder and waits for changes in it.
+* **Watching a directory**: `npm run watching`, this script launches a watcher over the data folder and waits for changes in it.
 To see how works, copy the file `andorra.zip` from `more/styles` to `styles` (e.g. `cp more/styles/andorra.zip styles/`). Then
 copy `andorra.zip` from `more/data` to `data` (e.g. `cp more/data/andorra.zip data/`). The watcher launchs the script who,
 upload the shape, upload the style (previously copied in the `styles` folder), assigns the style to the layer and refresh
 the layer group with the new layer.
-* Create a coverage store, `npm run create_coveragestore`, uploads a GeoTiff from `raster` folder, creates a coveragestore as imagemosaic
+* **Create a coverage store**: `npm run create_coveragestore`, uploads a GeoTiff from `raster` folder, creates a coveragestore as imagemosaic
  and publish the granule.
-* Import a GeoTiff, `npm run import_geotiff`, using the importer (**THIS EXTENSION MUST BE INSTALLED**), creates an import,
+* **Import a GeoTiff**: `npm run import_geotiff`, using the importer (**THIS EXTENSION MUST BE INSTALLED**), creates an import,
 creates a task with the GeoTiff to upload and creates three transformations using GDAL (**GDAL MUST BE INSTALLED INTO THE SERVER
 WHERE GEOSERVER IS RUNNING**).
 
