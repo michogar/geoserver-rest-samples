@@ -72,9 +72,9 @@ This script will create a `extensions` folder, will download the extension and w
 > Warning: we are preparing the geoserver image to get it with GDAL installed out the box. Meanwhile this occurs you'll
 > need install GDAL into the Docker by yourself:
 >
-> $ docker-compose exec geoserver sh
-> $ apt update
-> $ apt install gdal-bin
+> `$ docker-compose exec geoserver sh`
+> `# apt update`
+> `# apt install gdal-bin`
 
 [More info about GeoServer Docker](https://hub.docker.com/r/oscarfonts/geoserver/)
 
