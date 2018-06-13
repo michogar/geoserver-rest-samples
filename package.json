@@ -1,5 +1,5 @@
 {
-  "name": "geoserver-rest",
+  "name": "geoserver-rest-samples",
   "version": "1.0.0",
   "description": "Samples with the GeoServer REST API",
   "main": "index.js",
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/michogar/geoserver-rest-siglibre2018.git"
+    "url": "git+https://github.com/michogar/geoserver-rest-samples.git"
   },
   "keywords": [
     "node",
@@ -31,9 +31,9 @@
   "author": "Micho Garcia <micho.garcia@geomati.co>",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/michogar/geoserver-rest-siglibre2018/issues"
+    "url": "https://github.com/michogar/geoserver-rest-samples/issues"
   },
-  "homepage": "https://github.com/michogar/geoserver-rest-siglibre2018#readme",
+  "homepage": "https://github.com/michogar/geoserver-rest-samples#readme",
   "dependencies": {
     "base-64": "^0.1.0",
     "form-data": "^2.3.2",

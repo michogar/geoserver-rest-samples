@@ -1,13 +1,5 @@
 version: '3'
 services:
-  db:
-    image: kartoza/postgis:9.6-2.4
-    ports:
-      - "65432:5432"
-    environment:
-      - POSTGRES_USER=admin
-      - POSTGRES_PASS=admin
-      - POSTGRES_DBNAME=geoserver
   geoserver:
     image: oscarfonts/geoserver:2.12.3
     ports:
