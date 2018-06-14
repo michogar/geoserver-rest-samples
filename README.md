@@ -81,4 +81,4 @@ This script will create a `extensions` folder, will download the extension and w
 ## Contact
 Questions or hiring, please contact with [geomati.co](http://geomati.co)
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/2.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/">Creative Commons Attribution-ShareAlike 2.0 Generic License</a>.
+<a rel="license" href="https://www.gnu.org/licenses/gpl-3.0.en.html"><img alt="Creative Commons License" style="border-width:0" src="https://www.gnu.org/graphics/gplv3-88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU General Public License v3.0</a>.
